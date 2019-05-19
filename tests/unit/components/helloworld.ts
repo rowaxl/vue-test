@@ -12,9 +12,3 @@ describe('HelloWorld.vue', () => {
   });
 });
 
-describe('Home has only one component', () => {
-  it('check home view has component', () => {
-    const wrapper = shallowMount(Home);
-    expect(wrapper.find(HelloWorld).exists()).toBeTruthy();
-  });
-});
